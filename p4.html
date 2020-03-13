@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="JS/e3.js"></script>
+	<meta charset="utf-8">
+	<title>Problema 4</title>
+</head>
+<body>
+	<div class="divi">
+		<form name="formulario" onsubmit="return interes()">
+			
+			<table>	
+				<th>	
+					PROBLEMA 4
+				</th>
+					<tr>	
+						<td>Introduce los años de antigûedad del empleado: </td>
+						<td>
+							<input type="text" maxlength="2" id="cant" ondrop="return false" onkeypress="return validarn2(event)" maxlength="10">
+							</td>
+					</tr>
+					<tr>	
+						<td>Introduce el salario del empleado: </td>
+						<td>
+							<input type="text" step="any" id="pagoH" draggable="false" ondrop="return false" onkeypress="return validarn(event)" maxlength="10">
+							</td>
+					</tr>
+					<tr>
+						<td>	
+						<input type="submit" class="boton" value="Calcular">
+						</td>	
+						<td>	
+						<input class= "boton" type="reset">
+						</td>
+					</tr>
+					<tr>	
+						<td>El sueldo considerando el reparto de ultilidades es: </td>
+						<td><input type="text" id="cantidad" readonly="readonly"></td>
+					</tr>
+					<tr>
+						<td>
+							<input class="boton" type="button" id="1" value="Index" onclick="location.href='index.html'" >
+						</td>
+					</tr>
+			</table>
+
+		</form>
+	</div>
+</body>
+</html>

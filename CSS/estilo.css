@@ -1,0 +1,20 @@
+*{
+	text-align: center;
+}
+.boton{
+	border-radius: 6px;
+	border-color: transparent;
+	background-color: #3E7CB1;
+	
+}
+body{
+	background-color: #92AFD7;
+	align-items: center; 
+}
+.divi{
+	background-color: #6F9CEB;
+	border-radius: 7px;
+	border-color: transparent;
+	width: 500px;
+	margin: auto;
+}

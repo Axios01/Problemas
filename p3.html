@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="JS/e3.js"></script>
+	<meta charset="utf-8">
+	<title>Problema 3</title>
+</head>
+<body>
+	<div class="divi">
+		<form name="formulario" onsubmit="return interes()">
+			
+			<table>	
+				<th>	
+					PROBLEMA 3
+				</th>
+					<tr>	
+						<td>Introduce las horas trabajadas por el empleado: </td>
+						<td>
+							<input type="text" step="any" id="cant" ondrop="return false" onkeypress="return validarn(event)" maxlength="10">
+							</td>
+					</tr>
+					<tr>	
+						<td>Introduce el pago por hora del empleado: </td>
+						<td>
+							<input type="text" step="any" id="pagoH" draggable="false" ondrop="return false" onkeypress="return validarn2(event)" maxlength="10">
+							</td>
+					</tr>
+					<tr>
+						<td>	
+						<input type="submit" class="boton" value="Calcular">
+						</td>	
+						<td>	
+						<input class= "boton" type="reset">
+						</td>
+					</tr>
+					<tr>	
+						<td>El sueldo del trabajador es: </td>
+						<td><input type="text" id="cantidad" readonly="readonly"></td>
+					</tr>
+					<tr>
+						<td>
+							<input class="boton" type="button" id="1" value="Index" onclick="location.href='index.html'" >
+						</td>
+					</tr>
+			</table>
+
+		</form>
+	</div>
+</body>
+</html>

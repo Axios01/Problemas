@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="JS/e1.js"></script>
+	<meta charset="utf-8">
+	<title>Problema 1</title>
+</head>
+<body>
+	<div class="divi">
+		<form name="formulario" onsubmit="return interes()">
+			
+			<table>	
+				<th>	
+					PROBLEMA 1
+				</th>
+					<tr>	
+						<td>Primer número:</td>
+						<td>
+							<input type="text" step="any" id="obo" ondrop="return false" onkeypress="return validarn(event)">
+							</td>
+					</tr>
+					<tr>	
+						<td>Segundo número:</td>
+						<td>
+							<input type="text" step="any" id="obo2" draggable="false" ondrop="return false" onkeypress="return validarn2(event)">
+							</td>
+					</tr>
+					<tr>	
+									
+					</tr>
+					<tr>
+						<td>	
+						<input type="submit" class="boton" value="Calcular">
+						</td>	
+						<td>	
+						<input class= "boton" type="reset">
+						</td>
+					</tr>
+					<tr>	
+						<td>Resultado: </td>
+						<td><input type="text" id="cantidad" readonly="readonly"></td>
+					</tr>
+					<tr>
+						<td>
+							<input class="boton" type="button" id="1" value="Index" onclick="location.href='index.html'" >
+						</td>
+					</tr>
+			</table>
+
+		</form>
+	</div>
+</body>
+</html>
